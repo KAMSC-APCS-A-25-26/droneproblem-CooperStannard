@@ -25,13 +25,13 @@ public class DroneAssignment {
         displayAltitude += 20;
         System.out.println(displayAltitude);
         // Battery: Battery drains 15%
-        batteryRounded /= .15;
+        batteryRounded -= .15;
         System.out.println(batteryRounded);
         // Photos: Drone takes 3 photos
         photos += 3;
         System.out.println(photos);
         // Altitude: Drone descends to half its current altitude
-        displayAltitude /= .5;
+        displayAltitude *= .5;
         System.out.println(displayAltitude);
         // use modulo to calculate storage slots used on photos to calculate storage slots used
         photos %= 4;
