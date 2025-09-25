@@ -22,16 +22,16 @@ public class DroneAssignment {
 
         // TODO: Part 2 - Compound Assignment Operators
         // Altitude: Drone climbs 20 meters 
-        altitude += 20;
+        displayAltitude += 20;
         System.out.println(displayAltitude);
         // Battery: Battery drains 15%
-        battery /= .15;
+        batteryRounded /= .15;
         System.out.println(batteryRounded);
         // Photos: Drone takes 3 photos
         photos += 3;
         System.out.println(photos);
         // Altitude: Drone descends to half its current altitude
-        altitude /= .5;
+        displayAltitude /= .5;
         System.out.println(displayAltitude);
         // use modulo to calculate storage slots used on photos to calculate storage slots used
         photos %= 4;
